@@ -10,6 +10,7 @@ def open_file(file):
 def save_file(file, content):
     file.write(content)
 
+
 # método que recupera a palavra que existe no dicionário e retorna sua tradução
 def get_translation_from_destination(word, destination_content):
     for line in destination_content.split('\n'):
@@ -31,7 +32,7 @@ def read_file(words_file, destination_file):
     words_list = []
     print("Lendo arquivo...")
     try:
-        with open(words_file, "r") as fd:
+        with open(words_file, "r", encoding="utf-8") as fd:
             file_content = open_file(fd)
     except FileNotFoundError:
         print("File does not exist")
@@ -42,7 +43,7 @@ def read_file(words_file, destination_file):
     if file_content != "":
         try:
             # removendo palavras já existentes da lista
-            with open(destination_file, "r") as fd:
+            with open(destination_file, "r", encoding="utf-8") as fd:
                 file_destination = open_file(fd)
                 for word in file_content.split("\n"):
                     if word + " - " in file_destination:
@@ -75,7 +76,7 @@ def read_file(words_file, destination_file):
     
     # 3
     try:
-        with open(destination_file, "a", encoding="utf-8") as fd:
+        with open(destination_file, "a+", encoding="utf-8") as fd:
             for w in words_list:
                 save_file(fd, w)
     except FileNotFoundError:
@@ -89,21 +90,65 @@ def read_file(words_file, destination_file):
         fd.truncate(0)
     pass
 
-def insert_word():
+def insert_word(destination_file):
     choice = ''
+    words_list = []
+
     while choice != '0':
         choice = input('Digite a opção desejada:\n---------------------'+
                        '\n1 - Inserir nova palavra' +
                        '\n0 - Retornar ao menu\n')
         
         if choice == '1':
-            read_file()
+            w = input("Qual palavra deseja inserir?\n")
+            try:
+                #verificando se a palavra já existe
+                with open(destination_file, "r", encoding="utf-8") as fd:
+                    file_destination = open_file(fd)
+                    if w + " - " in file_destination:
+                        print("-----A palavra -> " + w + " <- já existe no dicionário!----")
+                        translation = get_translation_from_destination(w, file_destination)
+                        if translation:
+                            print("Sua tradução -> " + translation + "\n")
+                    else:
+                        confirm = ''
+                        translated = GoogleTranslator(source='english', target='portuguese').translate(w)
+                        word_translated = w + ' - ' + translated + '\n'
+                        
+                        confirm = input('\nNova palavra traduzida -> ' + word_translated
+                                        +'Confirmar tradução?\n---------------------'+
+                                        '\n1 - Sim' +
+                                        '\n2 - Não. Colocar outra tradução!\n')
+                        
+                        if confirm == '1':
+                            words_list.append(word_translated.encode('utf-8').decode('utf-8'))
+                        elif confirm == '2':
+                            correction = insert_manually(w)
+                            word_translated = w + ' - ' + correction + '\n'
+                            print("\nPalavra corrigida ficou assim -> " + word_translated)
+                            words_list.append(word_translated.encode('utf-8').decode('utf-8'))
+            except FileNotFoundError:
+                print("File does not exist")
+                exit(1)
+    
+    #inserção da lista no arquivo após não querer inserir uma palavra por vez
+    try:
+        with open(destination_file, "a+", encoding="utf-8") as fd:
+            for w in words_list:
+                save_file(fd, w)
+    except FileNotFoundError:
+        print("File does not exist")
+        exit(1)
+
 
 def search_word_by_initial():
     pass
 
-def return_dict():
-    pass
+def return_destination_file(destination_file):
+    with open(destination_file, "r", encoding="utf-8") as fd:
+        file_destination = open_file(fd)
+    
+    print("\nTodas as palavras\n" + file_destination + "\n-----------------------")
 
 def sort_file(destination_file):
     try:
@@ -119,11 +164,6 @@ def sort_file(destination_file):
         print("File does not exist")
         exit(1)
     
-    # try:
-    #     
-    # except FileNotFoundError:
-    #     print("File does not exist")
-    #     exit(1)
 
 def menu():
     input_file = 'words.txt'
@@ -142,11 +182,11 @@ def menu():
         if choice == '1':
             read_file(input_file, destination_file)
         elif choice == '2':
-            insert_word()
+            insert_word(destination_file)
         elif choice == '3':
             search_word_by_initial()
         elif choice == '4':
-            return_dict()
+            return_destination_file(destination_file)
         elif choice == '5':
             sort_file(destination_file)    
 

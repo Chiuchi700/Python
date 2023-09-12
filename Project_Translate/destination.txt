@@ -1,5 +1,355 @@
-lured
-fumbled
-clinging
-sore
-daze
+ajar - entreaberta
+alas - infelizmente
+amber - âmbar
+anteater - tamanduá
+armpits - axilas
+ashamed - envergonhado
+attic - sótão
+axle - eixo
+baleful - sinistro
+balled - enrolado
+barely - por muito pouco
+barest - the barest trace of his smile - o menor traço do seu sorrido
+barter - troca
+bead - gota
+beaded - frizado
+beads - miçangas
+beady - pequeno e brilhante
+beak - bico
+befriended - fez amizade
+beheld - contemplou
+belched - arrotou
+bellhop - mensageiro
+berths - beliches
+bewildered - perplexo
+bewilderment - perplexidade
+bitterness - amargura
+blacksmith - ferreiro
+bladder - bexiga
+blurted - deixei escapar
+boar - javali
+bobsled - trenó
+bottomless - sem fundo
+brandished - brandido
+brat - pirralho
+bray - zurro
+braying - zurrando
+brewing - fermentação
+brisket - peito
+bristled - eriçado
+budge - ceder
+cackled - gargalhou
+calf - panturrilha
+canopy - marquise
+capsizing - virar
+chalk - giz
+chaperoning - acompanhante
+chasm - abismo
+chastised - castigado/criticado
+cherish - estimar
+chewed - mastigado
+clattered - estrondoso
+clenched - cerrado
+clogged - entupido
+cloven hooves - cascos fedidos
+cobwebs - teias de aranha
+cooped up - confinado
+cradle - berço
+cramming - amontoar
+craned - esticado
+cranking - acionando
+cranky - rabugenta
+crippled - aleijado
+crooned - cantarolou
+curb - meio-fio
+daze - atordoar
+dazed - atordoado
+deceased - morto
+defy - desafiou
+desnag - desenganchar
+ditched - abandonado
+dizzy - tonto
+draped - cobrir
+dreaded - temia
+drips off - pinga
+drool - babar -> drooled - babado
+dwell - habitar
+elated - exaltado
+etched - gravado
+eyelids - pálpebras
+falter - vacilar
+faltered - vacilou
+fazed - perturbado
+feiged - fingido
+feigning - fingindo
+feint - finta
+feverish - febril
+filthy - imundo
+flailed - se debateu
+flanking - flanqueando
+flatly - categoricamente
+flung - arremessou
+foretold - predito
+forked - bifurcado
+frayed - desgastado
+freckles - sardas
+from the waist down - da cintura para baixo
+frowned - franziu a testa
+full of kelp - cheio de algas
+full-fledged - de pleno direito
+fur - pele
+gagged - amordaçado
+garlanded - guirlanda
+gasped - engasgou
+gathered - coletado/acumulado
+gawk - embasbacado
+ghouls - carniçais
+gingerly - cautelosamente
+glanced - olhou
+glint - brilho
+glistened - brilhava
+glumly - carrancudo
+goblet - cálice
+godling - anão
+grainy - granulhado
+greasy - gorduroso
+grim - sinistro
+grimaced - fez careta
+grimy - sujo
+grin - sorriso (irônico)
+grinned - sorriu
+gritted my teeth - cerrei os dentes
+gurgled over - gorgolejou sobre
+halfheartedly - sem estusiasmo
+harsh - severo
+hastily - precipitadamente
+hatred - ódio
+haul - transportar
+hauled - arrastrou
+haze - confusão
+hazy - nebuloso
+heel - calcanhar
+heeling - seguindo
+hefted - pesado
+hewn - talhado
+hinges - dobradiças
+hissed - sibilou
+howled - uivou
+huddled - amontoado
+inched - avançou
+jagged - irregular
+knelt - ajoelhou
+knob - botão
+knot - nó
+kowtow - reverenciar
+lad - rapaz
+lame - muito ruim
+lanolin - lanolina
+lifted - levantado
+lit - aceso
+lit up - iluminou
+lithe - ágil
+lousy - nojento
+lull - calmaria
+maiming - mutilando
+mane - juba
+maneuver - manobra
+manhood - masculinidade
+marooned - abandonado
+marshy - pantanoso
+mattress - colchão
+maw - boca
+menace - ameaça
+miffed - irritado
+migraine - enxaqueca
+mildly - levemente
+moist - úmido
+moistened - umedecido
+mornful - triste
+mournfully - tristemente
+mower - cortador de grama
+mumbled - resmungou
+munched on - mastigou
+mused - meditou
+muttered - murmurou
+muttering - resmungando
+nagging - ranzinza
+narrowed - estreito
+nest - ninho
+netted - pegou
+nevertheless - no entanto
+nodded - acenou com a cabeça
+nostrils - narinas
+nozzle - bocal
+nudged - cutucou
+nuzzling - acariciando
+oily - oleoso
+omen - presságio
+outmaneuvered - superado
+outright - abertamente
+paced - andar
+padlocked - cadeado
+panted - ofegante
+patted - afagou
+patting - dando tapinhas
+pelting - atirando
+perky - alegre
+pleaded - implorou
+pledge - juramento
+plummeted - desabou
+plunged - afundou
+porch - varanda
+prairie - pradaria
+pry open - arrombar
+pumbling - esmurrando
+pummeling - emurrando
+purebred - raça pura
+pursed - franzido
+qualms - escrúpulos
+quenched - apagado
+quivered - estremeceu
+quivering - tremendo
+rags - trapos
+rear - traseira
+reed - cana
+reeked - fedia
+reeking - fedorento
+reeling - cambaleando
+relented - cedeu
+resented - resentido
+rim - aro
+rodent - roedor
+rotten - podre
+ruffled - bagunçou
+runt - nanico
+sank - afundou
+scarf - lenço
+scorn - desprezo
+scowled - carrancudo
+scrambled - mexidos
+scraped - raspado
+scrawny - esquelético
+scruffy - desalinhado
+scythe - foice
+seared - queimado
+seaweed - algas marinhas
+sew - costurar
+sheath - bainha
+shimmered - brilhou
+shoals - bancos de areia
+shoehorned - calçado
+shoreline - litoral
+shoved - empurrou
+shred - destruir
+shredded - trincado
+shrill - estridente
+shriveled - murchou
+shrugged - encolheu os ombros
+shudder - estremecer
+shuddered - estremeceu
+sightseeing - passeio turístico
+silk - seda
+sinew - tendão
+sinking - afundando
+sip - trago
+sire - procriar
+sizzling - escaldante
+skeptically - ceticamente
+sketchier - mais esboçado
+skidded - derrapou
+slightest - menor
+slope - declive
+sloshed - chapinhado
+slugfest - dificuldade ou competição
+slumped over - caído
+slurped - sorveu1
+sly - astuto
+smirk - sorriso pretensioso
+smirked - sorriu
+smothering - sufocante
+snickers - risadinhas
+snortled - bufou
+snout - focinho
+soggy - encharcado
+soothingly - suavemente
+sore - dolorido
+sot - encharcado
+sought - procurado
+soundlessly - silenciosamente
+splattered over - espalhada
+splurge - fazer alarde
+sprang out - surgiu
+sprawl - expansão
+stall - barraca
+stammered - gaguejou
+startled - assustado
+steadied - firmado
+steeples - campanário
+steered - dirigido
+stenciled - estampado
+sternly - severamente
+stiffened - endureceu
+stinging - ardor
+stirring - mexendo
+stood - permanceu
+stowed - arrumado
+straw - canudo
+strewn - espalhado
+stubborn - teimoso
+stumble - tropeçar
+stung - arderam
+sullen - taciturno
+swaying - balançando
+swerved - desviou
+swiveled - girou
+tart - azedo
+theft - roubo
+thigh - coxa
+though - no entanto
+thrust - impulso
+thud - baque
+thwacking - batendo
+tidal wave - maremoto
+tingling - formigamento
+tinkered - consertado
+tore - rasgou
+touchy - melindroso
+treacherous - traiçoeiro
+trundled - rolou
+tug - puxão -> tugged - puxado
+turnips - nabos
+twig - galho
+twitched - contraiu
+uneasiness - inquietação
+urge - urgir
+vein-webbed - teia de veias
+wadded - amassado
+wads - maços
+wail - lamentar
+wailed - lamentou
+wandered - vagou
+warily - cautelosamente
+wary - cauteloso
+waved - acenou
+whap me - me bata
+wheat - trigo
+whiff - baforado
+whiny - chorão
+whistled - assobiou
+wickedly - perversamente
+widened - alargado
+willed - desejado
+willingly - de boa vontade
+winced - estremeceu
+wincing - estremecendo
+windowsill - peitoril da janela
+wiped - limpou
+wistful - melancólico
+wistfully - melancolicamente
+wits - inteligência
+wobbly - vacilantes (bambas)
+wounded - ferido
+wrath - fúria
+wrenched - torcida
+yawned - bocejou
+zeroed - zerado
